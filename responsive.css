@@ -1,0 +1,64 @@
+@media ( max-width: 75rem){
+    html{
+        font-size: 58%;
+    }
+}
+
+@media ( max-width: 59.4rem){
+    .sidebar{
+        display: none;
+    }
+    .main{
+        padding-left: 3rem;
+    }
+}
+@media ( max-width: 58rem){
+    html{
+        font-size: 52%;
+    }
+}
+@media ( max-width: 54rem){
+    .main{
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+@media ( max-width: 43rem){
+    .navbar .middle-section{
+        display: none;
+    }
+    .navbar .right-section{
+        justify-content: flex-end;
+    }
+
+}
+
+@media ( max-width: 33.8rem){
+    html{
+        font-size: 60%;
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .video-container .upper{
+        width: 40rem;
+    }
+}
+
+@media ( max-width: 33.8rem){
+   
+    .navbar .right-section ul li:first-child a{
+        display: none;
+    }
+    .navbar .right-section ul li:nth-child(2) a{
+        display: none;
+    }
+    .navbar .right-section ul li:nth-child(3) a{
+        display: none;
+    }
+    .navbar .right-section ul li:nth-child(3) .notification-div{
+        display: none;
+    }
+}
